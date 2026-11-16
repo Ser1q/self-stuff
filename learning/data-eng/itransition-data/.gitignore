@@ -1,0 +1,9 @@
+.env
+.venv
+.DS_Store
+__pycache__/
+.ipynb_checkpoints/
+*.code-workspace
+
+# contains raw binary files
+task_2/data/
