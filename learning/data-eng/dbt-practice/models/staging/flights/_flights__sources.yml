@@ -1,0 +1,70 @@
+sources:
+  - name: demo_src
+    description: Data from DB of flights
+    database: dwh_flights
+    schema: demo_src
+    tables:
+      - name: aircrafts
+        description: Plane models
+        columns:
+          - name: aircraft_code
+          - name: model,
+          - name: range
+      - name: airports
+        description: Airports
+        columns:
+          - name: airport_code
+          - name: airport_name
+          - name: city
+          - name: coordinates
+          - name: timezone
+      - name: boarding_passes
+        description: Boarding passes
+        columns:
+          - name: ticket_no
+          - name: flight_id
+          - name: boarding_no
+          - name: seat_no 
+      - name: flights
+        description: Flights
+        columns: 
+          - name: flight_id
+          - name: flight_no
+          - name: scheduled_departure
+          - name: scheduled_arrival
+          - name: departure_airport
+          - name: arrival_airport
+          - name: "status"
+          - name: aircraft_code
+          - name: actual_departure
+          - name: actual_arrival
+      - name: ticket_flights
+        description: Ticket flights
+        columns:
+          - name: ticket_no
+          - name: flight_id
+          - name: fare_conditions
+          - name: amount
+      - name: tickets
+        description: Tickets
+        columns:
+          - name: ticket_no
+          - name: book_ref
+          - name: passenger_id
+          - name: passenger_name
+          - name: contact_data
+      - name: bookings
+        columns:
+          - name: book_ref
+          - name: book_date
+          - name: total_amount
+  
+        loaded_at_field: book_date::timestamp
+      - name: seats
+        description: Seats
+        columns: 
+          - name: aircraft_code
+          - name: seat_no
+          - name: fare_conditions
+
+
