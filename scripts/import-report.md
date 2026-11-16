@@ -144,3 +144,13 @@ What changed while copying each repo in. Originals on GitHub are untouched.
 ### nFactorial_tank -> `archive/nfactorial-tank` (fc7a9d3)
 - clean import
 
+## Review of flagged files (2026-11-16)
+
+All "possible secret" flags above were checked and are not real credentials:
+- `sk-…` in notebooks: scikit-learn's HTML repr CSS class (`sk-toggleable__label-arrow`).
+- `pydantic/validators-02.py`: sample password in validation examples.
+- `asik-test/project/settings.py`: Django's generated `django-insecure-` dev key.
+- `containers-app`: password for a local docker Postgres (`localhost` / `db`).
+- `coursework/db3`: connection strings built from `os.getenv` values.
+
+Files left out for size are still in the original GitHub repos.
