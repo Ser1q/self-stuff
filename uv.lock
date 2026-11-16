@@ -497,7 +497,7 @@ wheels = [
 [[package]]
 name = "self-stuff"
 version = "0.1.0"
-source = { editable = "." }
+source = { virtual = "." }
 dependencies = [
     { name = "google-genai" },
     { name = "python-dotenv" },

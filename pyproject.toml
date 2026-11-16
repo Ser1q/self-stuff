@@ -1,7 +1,7 @@
 [project]
 name = "self-stuff"
 version = "0.1.0"
-description = "Add your description here"
+description = "Personal learning, coursework and experiments"
 readme = "README.md"
 authors = [
     { name = "Nuradil Serik", email = "serik.nuradil@gmail.com" }
@@ -11,10 +11,3 @@ dependencies = [
     "google-genai>=3.3.0",
     "python-dotenv>=1.2.4",
 ]
-
-[project.scripts]
-self-stuff = "self_stuff:main"
-
-[build-system]
-requires = ["uv_build>=0.12.23,<0.13.0"]
-build-backend = "uv_build"
