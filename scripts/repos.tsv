@@ -1,0 +1,39 @@
+# repo	destination	description (used for the README index)
+# Lines starting with # are ignored. Columns are tab-separated.
+pure-python	learning/python/pure-python	Python fundamentals recap
+learning-stuff	learning/python/pydantic	Pydantic practice
+ml_learn	learning/ml/torch-basics	PyTorch basics
+supreme-guide	learning/ml/ml-snippets	ML learning snippets
+titanic_data_ML	learning/ml/titanic	Titanic survival classification
+Indian_Airlines_Ticket_Prices_Prediction	learning/ml/airline-ticket-prices	Indian airline ticket price prediction
+BMW_models_linear_regression_ML	learning/ml/bmw-linear-regression	BMW price linear regression
+dbt_practice	learning/data-eng/dbt-practice	dbt practice
+fabric-project	learning/data-eng/fabric-project	Itransition data engineering course project
+itransition-data	learning/data-eng/itransition-data	Itransition data course notebooks
+langc-course	learning/llm/langc-course	LLM course work
+robt-407	coursework/course	Course notebooks
+robt407-hw2	coursework/hw2	Homework 2
+some-shi	coursework/midterm	Midterm project
+db3_private	coursework/db3	Database course Django app (caregiver site)
+parsing_web_pages	experiments/parsing-web-pages	Web page parsing
+asik_test	experiments/asik-test	asik test (JavaScript)
+atom_server_webhooks	experiments/atom-server-webhooks	Webhook server
+containers-app	experiments/containers-app	Containers app (JavaScript)
+cats	archive/ios/cats	iOS: cats
+MapPlaces	archive/ios/map-places	iOS: map places
+Match	archive/ios/match	iOS: match game
+NewsTimer	archive/ios/news-timer	iOS: news timer
+ContactsTabBar	archive/ios/contacts-tab-bar	iOS: contacts with tab bar
+tableViewMusic	archive/ios/table-view-music	iOS: music table view
+firstCalcApp	archive/ios/first-calc-app	iOS: first calculator app
+OzinsheSnapKit	archive/ios/ozinshe-snapkit	iOS: Ozinshe UI with SnapKit
+Simon	archive/web/simon	Simon game
+diceeGame	archive/web/dicee-game	Dice game
+MoveIt	archive/web/move-it	MoveIt site
+TinDog	archive/web/tindog	TinDog landing page
+Modrian-art	archive/web/mondrian-art	Mondrian art in CSS
+Pricing_table	archive/web/pricing-table	Pricing table
+Design_agency	archive/web/design-agency	Design agency page
+html_web_dev_first_project	archive/web/first-html-project	First HTML project
+soska-autos	archive/web/soska-autos	Car site homework
+nFactorial_tank	archive/nfactorial-tank	nFactorial tank game (Python)
