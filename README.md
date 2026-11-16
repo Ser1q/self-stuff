@@ -8,8 +8,59 @@ The root is a Python project managed with uv (`src/`). Imported folders keep the
 
 Each folder is a snapshot of an older GitHub repo; the original keeps the full history.
 
+## Learning
+
+| Folder | What it is | Original repo |
+|---|---|---|
+| [`learning/python/pure-python`](learning/python/pure-python) | Python fundamentals recap | [pure-python](https://github.com/Ser1q/pure-python) |
+| [`learning/python/pydantic`](learning/python/pydantic) | Pydantic practice | [learning-stuff](https://github.com/Ser1q/learning-stuff) |
+| [`learning/ml/torch-basics`](learning/ml/torch-basics) | PyTorch basics | [ml_learn](https://github.com/Ser1q/ml_learn) |
+| [`learning/ml/ml-snippets`](learning/ml/ml-snippets) | ML learning snippets | [supreme-guide](https://github.com/Ser1q/supreme-guide) |
+| [`learning/ml/titanic`](learning/ml/titanic) | Titanic survival classification | [titanic_data_ML](https://github.com/Ser1q/titanic_data_ML) |
+| [`learning/ml/airline-ticket-prices`](learning/ml/airline-ticket-prices) | Indian airline ticket price prediction | [Indian_Airlines_Ticket_Prices_Prediction](https://github.com/Ser1q/Indian_Airlines_Ticket_Prices_Prediction) |
+| [`learning/ml/bmw-linear-regression`](learning/ml/bmw-linear-regression) | BMW price linear regression | [BMW_models_linear_regression_ML](https://github.com/Ser1q/BMW_models_linear_regression_ML) |
+| [`learning/data-eng/dbt-practice`](learning/data-eng/dbt-practice) | dbt practice | [dbt_practice](https://github.com/Ser1q/dbt_practice) |
+| [`learning/data-eng/fabric-project`](learning/data-eng/fabric-project) | Itransition data engineering course project | [fabric-project](https://github.com/Ser1q/fabric-project) |
+| [`learning/data-eng/itransition-data`](learning/data-eng/itransition-data) | Itransition data course notebooks | [itransition-data](https://github.com/Ser1q/itransition-data) |
+| [`learning/llm/langc-course`](learning/llm/langc-course) | LLM course work | [langc-course](https://github.com/Ser1q/langc-course) |
+
 ## Coursework
 
 | Folder | What it is | Original repo |
 |---|---|---|
+| [`coursework/course`](coursework/course) | Course notebooks | [robt-407](https://github.com/Ser1q/robt-407) |
+| [`coursework/hw2`](coursework/hw2) | Homework 2 | [robt407-hw2](https://github.com/Ser1q/robt407-hw2) |
+| [`coursework/midterm`](coursework/midterm) | Midterm project | [some-shi](https://github.com/Ser1q/some-shi) |
 | [`coursework/db3`](coursework/db3) | Database course Django app (caregiver site) | [db3_private](https://github.com/Ser1q/db3_private) |
+
+## Experiments
+
+| Folder | What it is | Original repo |
+|---|---|---|
+| [`experiments/parsing-web-pages`](experiments/parsing-web-pages) | Web page parsing | [parsing_web_pages](https://github.com/Ser1q/parsing_web_pages) |
+| [`experiments/asik-test`](experiments/asik-test) | asik test (JavaScript) | [asik_test](https://github.com/Ser1q/asik_test) |
+| [`experiments/atom-server-webhooks`](experiments/atom-server-webhooks) | Webhook server | [atom_server_webhooks](https://github.com/Ser1q/atom_server_webhooks) |
+| [`experiments/containers-app`](experiments/containers-app) | Containers app (JavaScript) | [containers-app](https://github.com/Ser1q/containers-app) |
+
+## Archive (2023 bootcamp work, read-only)
+
+| Folder | What it is | Original repo |
+|---|---|---|
+| [`archive/ios/cats`](archive/ios/cats) | iOS: cats | [cats](https://github.com/Ser1q/cats) |
+| [`archive/ios/map-places`](archive/ios/map-places) | iOS: map places | [MapPlaces](https://github.com/Ser1q/MapPlaces) |
+| [`archive/ios/match`](archive/ios/match) | iOS: match game | [Match](https://github.com/Ser1q/Match) |
+| [`archive/ios/news-timer`](archive/ios/news-timer) | iOS: news timer | [NewsTimer](https://github.com/Ser1q/NewsTimer) |
+| [`archive/ios/contacts-tab-bar`](archive/ios/contacts-tab-bar) | iOS: contacts with tab bar | [ContactsTabBar](https://github.com/Ser1q/ContactsTabBar) |
+| [`archive/ios/table-view-music`](archive/ios/table-view-music) | iOS: music table view | [tableViewMusic](https://github.com/Ser1q/tableViewMusic) |
+| [`archive/ios/first-calc-app`](archive/ios/first-calc-app) | iOS: first calculator app | [firstCalcApp](https://github.com/Ser1q/firstCalcApp) |
+| [`archive/ios/ozinshe-snapkit`](archive/ios/ozinshe-snapkit) | iOS: Ozinshe UI with SnapKit | [OzinsheSnapKit](https://github.com/Ser1q/OzinsheSnapKit) |
+| [`archive/web/simon`](archive/web/simon) | Simon game | [Simon](https://github.com/Ser1q/Simon) |
+| [`archive/web/dicee-game`](archive/web/dicee-game) | Dice game | [diceeGame](https://github.com/Ser1q/diceeGame) |
+| [`archive/web/move-it`](archive/web/move-it) | MoveIt site | [MoveIt](https://github.com/Ser1q/MoveIt) |
+| [`archive/web/tindog`](archive/web/tindog) | TinDog landing page | [TinDog](https://github.com/Ser1q/TinDog) |
+| [`archive/web/mondrian-art`](archive/web/mondrian-art) | Mondrian art in CSS | [Modrian-art](https://github.com/Ser1q/Modrian-art) |
+| [`archive/web/pricing-table`](archive/web/pricing-table) | Pricing table | [Pricing_table](https://github.com/Ser1q/Pricing_table) |
+| [`archive/web/design-agency`](archive/web/design-agency) | Design agency page | [Design_agency](https://github.com/Ser1q/Design_agency) |
+| [`archive/web/first-html-project`](archive/web/first-html-project) | First HTML project | [html_web_dev_first_project](https://github.com/Ser1q/html_web_dev_first_project) |
+| [`archive/web/soska-autos`](archive/web/soska-autos) | Car site homework | [soska-autos](https://github.com/Ser1q/soska-autos) |
+| [`archive/nfactorial-tank`](archive/nfactorial-tank) | nFactorial tank game (Python) | [nFactorial_tank](https://github.com/Ser1q/nFactorial_tank) |
