@@ -23,6 +23,7 @@ venv/
 # OS / editors
 .DS_Store
 .idea/
+.vscode
 
 # Node
 node_modules/
