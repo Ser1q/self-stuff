@@ -14,11 +14,11 @@ langc-course	learning/llm/langc-course	LLM course work
 robt-407	coursework/course	Course notebooks
 robt407-hw2	coursework/hw2	Homework 2
 some-shi	coursework/midterm	Midterm project
-db3_private	coursework/db3	Database course Django app (caregiver site)
 parsing_web_pages	experiments/parsing-web-pages	Web page parsing
-asik_test	experiments/asik-test	asik test (JavaScript)
-atom_server_webhooks	experiments/atom-server-webhooks	Webhook server
 containers-app	experiments/containers-app	Containers app (JavaScript)
+db3_private	archive/db3	Database course Django app (caregiver site)
+asik_test	archive/asik-test	Django blog test
+atom_server_webhooks	archive/atom-server-webhooks	Webhook server
 cats	archive/ios/cats	iOS: cats
 MapPlaces	archive/ios/map-places	iOS: map places
 Match	archive/ios/match	iOS: match game

@@ -31,21 +31,21 @@ Each folder is a snapshot of an older GitHub repo; the original keeps the full h
 | [`coursework/course`](coursework/course) | Course notebooks | [robt-407](https://github.com/Ser1q/robt-407) |
 | [`coursework/hw2`](coursework/hw2) | Homework 2 | [robt407-hw2](https://github.com/Ser1q/robt407-hw2) |
 | [`coursework/midterm`](coursework/midterm) | Midterm project | [some-shi](https://github.com/Ser1q/some-shi) |
-| [`coursework/db3`](coursework/db3) | Database course Django app (caregiver site) | [db3_private](https://github.com/Ser1q/db3_private) |
 
 ## Experiments
 
 | Folder | What it is | Original repo |
 |---|---|---|
 | [`experiments/parsing-web-pages`](experiments/parsing-web-pages) | Web page parsing | [parsing_web_pages](https://github.com/Ser1q/parsing_web_pages) |
-| [`experiments/asik-test`](experiments/asik-test) | asik test (JavaScript) | [asik_test](https://github.com/Ser1q/asik_test) |
-| [`experiments/atom-server-webhooks`](experiments/atom-server-webhooks) | Webhook server | [atom_server_webhooks](https://github.com/Ser1q/atom_server_webhooks) |
 | [`experiments/containers-app`](experiments/containers-app) | Containers app (JavaScript) | [containers-app](https://github.com/Ser1q/containers-app) |
 
-## Archive (2023 bootcamp work, read-only)
+## Archive (old or unused, read-only)
 
 | Folder | What it is | Original repo |
 |---|---|---|
+| [`archive/db3`](archive/db3) | Database course Django app (caregiver site) | [db3_private](https://github.com/Ser1q/db3_private) |
+| [`archive/asik-test`](archive/asik-test) | Django blog test | [asik_test](https://github.com/Ser1q/asik_test) |
+| [`archive/atom-server-webhooks`](archive/atom-server-webhooks) | Webhook server | [atom_server_webhooks](https://github.com/Ser1q/atom_server_webhooks) |
 | [`archive/ios/cats`](archive/ios/cats) | iOS: cats | [cats](https://github.com/Ser1q/cats) |
 | [`archive/ios/map-places`](archive/ios/map-places) | iOS: map places | [MapPlaces](https://github.com/Ser1q/MapPlaces) |
 | [`archive/ios/match`](archive/ios/match) | iOS: match game | [Match](https://github.com/Ser1q/Match) |

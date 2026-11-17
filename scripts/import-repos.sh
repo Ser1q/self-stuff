@@ -58,6 +58,15 @@ if ! git rev-parse --verify -q HEAD >/dev/null; then
 fi
 
 # --- import one repo ---------------------------------------------------------
+REPORT_STARTED=0
+report_header() {  # start a "## Run" section only when something is imported
+  if [[ $REPORT_STARTED == 0 ]]; then
+    [[ -f $REPORT ]] || printf '# Import report\n\nWhat changed while copying each repo in. Originals on GitHub are untouched.\n\n' >"$REPORT"
+    printf '## Run %s\n\n' "$(date '+%Y-%m-%d %H:%M')" >>"$REPORT"
+    REPORT_STARTED=1
+  fi
+}
+
 import_one() {
   local repo=$1 dest=$2 src="$WORK/$1" try sha f rel bytes mb hits
   NOTES=""
@@ -70,6 +79,7 @@ import_one() {
     echo "would   $repo -> $dest"
     return 0
   fi
+  report_header
 
   for try in 1 2 3; do
     rm -rf "$src"
@@ -140,11 +150,6 @@ import_one() {
 }
 
 # --- run ---------------------------------------------------------------------
-if [[ $DRY == 0 ]]; then
-  [[ -f $REPORT ]] || printf '# Import report\n\nWhat changed while copying each repo in. Originals on GitHub are untouched.\n\n' >"$REPORT"
-  printf '## Run %s\n\n' "$(date '+%Y-%m-%d %H:%M')" >>"$REPORT"
-fi
-
 failed=0
 while IFS=$'\t' read -r repo dest desc; do
   [[ -z $repo || $repo == \#* ]] && continue
@@ -160,7 +165,7 @@ section_title() {
     learning) echo "Learning" ;;
     coursework) echo "Coursework" ;;
     experiments) echo "Experiments" ;;
-    archive) echo "Archive (2023 bootcamp work, read-only)" ;;
+    archive) echo "Archive (old or unused, read-only)" ;;
     *) echo "$1" ;;
   esac
 }
